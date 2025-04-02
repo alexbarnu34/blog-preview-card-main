@@ -1,0 +1,51 @@
+body{
+    background-color:hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-container{
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width: 375px;
+    width: 300px;
+    padding: 20px;
+    height: 65vh;
+    margin: 0;
+    text-align: left;
+    border-radius: 15px;
+}
+
+.h1-hyperlink{
+    color:black;
+    text-decoration: none;
+}
+
+.h1-hyperlink:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.button-container{
+    background-color: hsl(47, 88%, 63%);;
+}
+
+.image-container{
+    size: 40%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
