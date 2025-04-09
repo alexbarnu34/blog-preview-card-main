@@ -11,14 +11,13 @@ body{
     background-color: white;
     display: flex;
     flex-direction:column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     max-width: 375px;
-    width: 300px;
+    width: 400px;
     padding: 20px;
     height: 65vh;
     margin: 0;
-    text-align: left;
     border-radius: 15px;
 }
 
@@ -32,7 +31,8 @@ body{
 }
 
 .button-container{
-    background-color: hsl(47, 88%, 63%);;
+    padding-top: 3px;
+    background-color: hsl(47, 88%, 63%);
 }
 
 .image-container{
@@ -40,12 +40,38 @@ body{
 }
 
 .attribution { 
+    padding-top: 3%;
     font-size: 11px; 
     text-align: center; 
 }
     
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.my-name{
+    color:black;
+    text-decoration:none;
 }
 
+.my-name:hover{
+    color:black;
+}
 
+.frontend-hyper-link{
+    color:black;
+    text-decoration: none;
+}
+
+.frontend-hyper-link:hover{
+    color:black;
+}
+
+.blog-avatar{
+    display:flex;
+    flex-direction: row;
+}
+
+.blog-avatar p{
+    margin-left: 3%;
+}
+
+.avatar{
+    height:45px;
+}
